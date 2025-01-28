@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "400199050020",
+    "project_id": "clickgame-2fe51",
+    "storage_bucket": "clickgame-2fe51.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:400199050020:android:18e43e1dafccba1fbfc9b1",
+        "android_client_info": {
+          "package_name": "com.example.clickgame"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBEKVuZbFlHQVSWwZcOHXRjGo4JOTpPg8I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

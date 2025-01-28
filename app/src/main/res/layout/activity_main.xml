@@ -27,7 +27,7 @@
         android:scaleType="fitCenter"
         android:src="@drawable/jelly"
         app:layout_constraintEnd_toEndOf="parent"
-        android:onClick="onImageButtonClick"/>
+        />
 
     <ImageView
         app:layout_constraintTop_toBottomOf="@id/TitleText"
