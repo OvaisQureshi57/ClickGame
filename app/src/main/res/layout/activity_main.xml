@@ -10,10 +10,57 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:text="Click the jellyfish to catch!"
+        android:id="@+id/TitleText"
+        android:textSize="50dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="20dp"/>
+
+
+    <ImageButton
+        app:layout_constraintTop_toBottomOf="@id/TitleText"
+        android:id="@+id/imgButton"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/jelly"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:onClick="onImageButtonClick"/>
+
+    <ImageView
+        app:layout_constraintTop_toBottomOf="@id/TitleText"
+        android:id="@+id/sponge"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/spongebob_image"
+        app:layout_constraintStart_toStartOf="parent"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total Jellyfish Caught Shown Below:"
+        android:id="@+id/Totaljellies"
+        android:textSize="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/sponge"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="100"
+        android:id="@+id/jellynumbers"
+        android:textSize="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/Totaljellies"
+        android:layout_marginTop="20dp"/>
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
